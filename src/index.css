@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-image: url(./../public/img/backgrounddd.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+  width: 100%;
+  /* position: relative; */
+}
+
+.App .overley {
+  height: 100%;
+  background-color: #302727;
+  width: 100%;
+  opacity: 0.8;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.App .container {
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+.App .top {
+  text-align: center;
+  position: relative;
+  margin: 100px 0px 50px 0px;
+}
+
+.App .top .hinhAnh {
+  position: absolute;
+  top: 115px;
+  left: 509px;
+  opacity: 0.8;
+}
+
+.App .top .hinhAnh img {
+  width: 277px;
+}
+
+.App .top .content {
+  width: 500px;
+  position: absolute;
+  bottom: 0;
+  left: 400px;
+  background: rgb(235, 187, 57);
+  background: linear-gradient(
+    0deg,
+    rgba(235, 187, 57, 1) 92%,
+    rgba(253, 187, 45, 0.01) 100%
+  );
+}
+
+.App .bottom {
+  padding: 55px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  background-color: white;
+}
+
+.App .bottom button {
+  width: 100%;
+  height: 100px;
+}
+
+.App .bottom button img {
+  width: 75%;
+}
